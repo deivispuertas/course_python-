@@ -1,5 +1,5 @@
 import os
-from openai import OpenAI
+from openai import OpenAI # type: ignore
 
 # Crear cliente usando la nueva API de OpenAI
 client = OpenAI(api_key="API_KEY_HERE")
