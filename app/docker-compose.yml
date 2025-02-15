@@ -1,0 +1,7 @@
+services : 
+  app-csv:
+    build:
+      context: .
+      dockerfile: DockerFile
+    volumes:
+      - .:/app
